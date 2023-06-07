@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: rgb(207, 202, 248);
+    background-color: rgb(166, 177, 240);
     padding-left: 100px;
     align-items: center;
     height: 300px;
@@ -28,7 +28,7 @@
     margin-left: 400px;
     margin-top: 20px;
     margin-bottom: 10px;
-    background-color: azure;
+    background-color: rgb(130, 148, 248);
     width: 500px;
     
 }
@@ -46,10 +46,11 @@ h2{
   #feature .fe-box {  display: flex;
    
     padding-left: 100px;
+    
    
 }
 .bubs{
-    background-color: #606063;
+    background-color: #c3c9e9;
     width: 700px;
     height: 400px;
 }
@@ -80,14 +81,17 @@ h2{
     position: relative;
     height: 30px;
     width: 30%;
-   margin-top: -20px;
+   margin-top: -30px;
     
     padding: 2rem 4rem;
-    background-color: rgb(59, 81, 100);
+    background-color: rgb(130, 148, 248);
     text-align: center;
 }
 .h8{
-    margin-top: -5px;
+    margin-top: -20pxpx;
+    border-radius: 10px;
+    font-size: 10px;
+    color: rgb(79, 79, 246);
 }
 .dadi{
     margin-top: 10px;
@@ -102,6 +106,9 @@ h2{
     border-radius: 20%;
     margin-left: 10px;
     text-align: center;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 5px;
 }
 footer{
     display:flex ;
@@ -115,6 +122,34 @@ footer .col{
     align-items: flex-start;
     margin-bottom: 20px;
 }
+.social-icons {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .social-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-right: 10px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    background-color: #333;
+  }
+.h1{
+    color: blue;
+}
+img {
+    border-radius: 8px;
+  }
 footer h4{
     font-size: 20px;
     padding-bottom:10px ;
